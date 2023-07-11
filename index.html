@@ -7,6 +7,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="input-text">
+                <textarea class="from-text" placeholder="Enter text"></textarea>
+                <textarea class="to-text" placeholder="Translation" readyonly disabled></textarea>
+            </div>
+            <ul class="controls">
+                <li class="row-from">
+                    <div class="icon">
+                        <i class="fa-solid fa-copy"></i>
+                    </div>
+                    <select>
+                        <option value="en-US">English</option>
+                        <option value="es">Spanish</option>
+                    </select>
+                </li>
+                <li class="exchange"><i class="fa-solid fa-arrow-right-arrow-left"></i></li>
+                <li class="row-to">
+                    <select>
+                        <option value="es">Spanish</option>
+                        <option value="en-US">English</option>
+                    </select>
+                    <div class="icon">
+                        <i class="fa-solid fa-copy"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <button>Translate Text</button>
+    </div>
 
      <script src="languages.js"></script>
     <script src="script.js"></script>
