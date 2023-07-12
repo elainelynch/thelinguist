@@ -1,19 +1,13 @@
-body {
-    display: flex;
-
-}
-
 .container {
-    /* min-height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: transparent;
-    color: #FAFAFA; */
+    color: #FAFAFA; 
 }
 .wrapper {
-    /* width: 600px;
-    padding: 10 20px;
-    display: flex; */
+    width: 600px;
+    padding: 10 20px; 
 }
 
