@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(43, 43, 202);
+}
 .container {
     width: 800px;
     background: white;
@@ -5,7 +12,92 @@
     padding: 25px;
 }
 .wrapper {
-   border: 1px solid white;
+   border: 1px solid rgb(221, 209, 209);
    border-radius: 5px;
 }
 
+.wrapper .input-text{
+    display: flex;  
+    border-bottom: 1px solid rgb(221, 209, 209);
+}
+
+.input-text .to-text{
+  border-radius: 0px;
+  border-left: 1px solid rgb(221, 209, 209);
+
+}
+
+.input-text textarea {
+    font-size: x-large;
+    height: 250px;
+    width: 100%;
+    outline: none;
+    background: none;
+    resize: none;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 15px;
+  }
+
+  .controls, li, .icons {
+    display: flex;
+    align-content:center; 
+    justify-content: space-between;
+  }
+
+  .controls {
+    list-style: none;
+    padding: 12px 15px;
+  }
+
+  .controls .row-from .icon {
+    border-right: 1px solid rgb(221, 209, 209);
+    padding-right: 15px;
+  }
+
+  .controls .row-to .icon {
+    border-left: 1px solid rgb(221, 209, 209);
+    padding-left: 15px;
+  }
+
+  .controls .icon{
+    width: 15%;
+  }
+
+  .controls .icon i {
+    font-size: large;
+    width: 50px;
+    cursor: pointer;
+  }
+
+  .controls .row-from select {
+    font-size: large;
+    outline: none;
+    background: none;
+    border: none;
+  }
+
+  .controls .row-to select {
+    font-size: large;
+    outline: none;
+    background: none;
+    border: none; 
+  }
+
+  .controls .exchange {
+    font-size: larger;
+    cursor: pointer;
+  }
+
+  .container button {
+    font-size: larger;
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: rgb(43, 43, 202) ;
+    cursor: pointer;
+  } 
