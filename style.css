@@ -1,11 +1,19 @@
+body {
+    display: flex;
+
+}
+
 .container {
-   width: 800px;
-   background: white;
-   border-radius: 15px;
-   padding: 25px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background color: transparent;
+    color: #FAFAFA;
 }
 .wrapper {
-   border: 1px solid white;
-   border-radius: 5px;
+    width: 600px;
+    padding: 10 20px;
+    display: flex;
 }
 
