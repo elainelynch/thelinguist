@@ -1,4 +1,7 @@
-const selectTags = document.querySelectorAll('select');
+const fromText = document.querySelector(".from-text"),
+toText = document.querySelector(".to-text"),
+selectTags = document.querySelectorAll("select"),
+translateBtn = document.querySelector("button");
 
 selectTags.forEach((selectTag, id) => {
   for (const country_code in countries) {
@@ -11,4 +14,16 @@ selectTags.forEach((selectTag, id) => {
     const option = `<option value="${country_code}" ${selected}>${countries[country_code]}</option>`;
     selectTag.insertAdjacentHTML("beforeend", option);
   }
+});
+
+translateBtn.addEventListener("click", () => {
+  let text = fromText.value,
+  translateFrom = selectTags[0].value,
+  translateTo = selectTags[1].value;
+  console.log(text, translateFrom, translateTo);
+  let apiUrl = `https://api.mymemory.translated.net/get?q=${text}&langpair=${translateFrom}|${translateTo}`;
+  fetch(apiUrl).then(res => res.json()).then(data => {
+    console.log(data);
+    toText.value = data.responseData.translatedText;
+  });
 });
