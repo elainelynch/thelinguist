@@ -151,97 +151,95 @@ body {
     }
 }
 
-  @media screen and (max-width: 550px) {
-    .container {
-      width: 380px;
-      border-radius: 15px;
-      padding: 15px;
-  }
-    .controls .row-from .icon {
-      padding-right: 10px;
-  }
-
-    .controls .row-to .icon {
-      padding-left: 10px;
-      padding-right: 90px;
-  }
-
-   .controls .icon i{
-    width: 35px;
-  }
-   .controls .exchange {
-      padding-left: 10px;
-      padding-right: 10px;
-  }
-}
-
-  @media screen and (max-width: 480px) {
-    .container {
-      width: 320px;
-      border-radius: 15px;
-      padding: 10px;
-  }
-
-    .controls .row-from .icon {
-      padding-right: 5px;
-  }
-
-    .controls .row-to .icon {
-      padding-left: 0px;
-      padding-right: 90px;
-  }
-
-    .input-text textarea {
-      font-size: medium;
-  }
-
-    .controls .icon i {
-      font-size: small;
-  }
-
-    .controls .row-from select {
-      font-size: small;
-  }
-
-    .controls .row-to select {
-      font-size: small;
-  }
-
-    .controls .exchange {
-      font-size: small;
-      padding-left: 5px;
-      padding-right: 5px;
-  }
-    .container button {
-      font-size: small;
-  }
-}
-
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 550px) {
   .container {
-    width: 300px;
+    width: 400px;
     border-radius: 15px;
-    padding: 10px;
+    padding: 15px;
   }
 
-  .controls .row-from .icon {
-    padding-right: 10px;
+  .controls .icon i {
+    font-size: small;
+    width: 12%
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    width: 350px;
+    border-radius: 15px;
+    padding: 15px;
   }
 
-  .controls .row-to .icon {
-    padding-left: 15px;
+  .input-text textarea {
+    font-size: medium;
   }
 
-  .controls .icon i{
-    width: 25px;
+  .controls {
+    padding: 8px 8px;
+  }
+
+  .controls .icon i {
+    font-size: small;
+    width: 10%
+  }
+
+  .controls .row-from select {
+    font-size: small;
   }
 
   .controls .row-to select {
-    margin: 3px;
-}
+    font-size: small;
+  }
 
   .controls .exchange {
-    padding-left: 8px;
-    padding-right: 8px;
+    font-size: small;
+  }
+
+  .container button {
+    font-size: small;
+  }
+
+  .controls .exchange {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 300px;
+    border-radius: 15px;
+    padding: 15px;
+  }
+
+  .input-text textarea {
+    font-size: medium;
+  }
+
+  .controls .icon i {
+    font-size: small;
+    width: 5%;
+  }
+
+  .controls .row-from select {
+    font-size:  small;
+  }
+
+  .controls .row-to select {
+    font-size:  small;
+  }
+
+  .controls .exchange {
+    font-size:  x-small;
+  }
+
+  .container button {
+    font-size:  small;
+  }
+
+  .controls .exchange {
+    padding-left: 7px;
+    padding-right: 7px;
   }
 }
