@@ -52,7 +52,6 @@ body {
   }
 
   .controls .row-from .icon {
-    align-items: flex;
     border-right: 1px solid rgb(221, 209, 209);
     padding-right: 15px;
   }
@@ -60,10 +59,6 @@ body {
   .controls .row-to .icon {
     border-left: 1px solid rgb(221, 209, 209);
     padding-left: 15px;
-  }
-
-  .controls .icon{
-    width: 15%;
   }
 
   .controls .icon i {
@@ -150,6 +145,16 @@ body {
       border-radius: 15px;
       padding: 15px;
     }
+
+    .controls .icon i {
+      font-size: small;
+      padding-bottom: 5px;
+    }
+
+    .controls .exchange {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -161,7 +166,11 @@ body {
 
   .controls .icon i {
     font-size: small;
-    width: 12%
+  }
+
+  .controls .exchange {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -182,7 +191,6 @@ body {
 
   .controls .icon i {
     font-size: small;
-    width: 10%
   }
 
   .controls .row-from select {
@@ -202,8 +210,8 @@ body {
   }
 
   .controls .exchange {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 
@@ -220,7 +228,6 @@ body {
 
   .controls .icon i {
     font-size: small;
-    width: 5%;
   }
 
   .controls .row-from select {
@@ -240,7 +247,7 @@ body {
   }
 
   .controls .exchange {
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: 3px;
+    padding-right: 3px;
   }
 }
