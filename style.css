@@ -52,6 +52,7 @@ body {
   }
 
   .controls .row-from .icon {
+    align-items: flex;
     border-right: 1px solid rgb(221, 209, 209);
     padding-right: 15px;
   }
